@@ -9,7 +9,7 @@ const Login = ({ handleLogin }) => {
     handleLogin(email, password)
     setEmail('')
     setPassword('')
-  }
+  } 
 
   return (
     <div className='flex h-screen w-screen items-center justify-center'>
